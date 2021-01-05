@@ -4,10 +4,15 @@
     box-sizing: border-box;
 }
 
+.under-container{
+    max-width: 1920px;
+}
 
 .header-img{
-    height: 70vh;
-    background-image: url(../home-page-img/GettyImages-1215392772.jpg);
+    height: 100vh;
+    background-image: url(../home-page-img/Covid-19-theme_AFRICA5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .filler{
@@ -21,7 +26,7 @@
 
 .about-homepage{
     background-color: aquamarine;
-    height: 30vh;
+    height: 50vh;
 }
 
 .About{
@@ -32,7 +37,10 @@
 }
 
 .home-page-text{
+    
+    margin-left: 6rem;
+    margin-right: 6rem;
     font-size: 1.5rem;
-    text-align: center;
+    text-align: justify;
     padding: 2.5rem;
 }
