@@ -1,0 +1,18 @@
+nav {
+  padding: 10px;
+
+  @media (min-width: 600px){
+      padding: 20px;
+  }
+}
+
+nav.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  @media (min-width: 600px){
+      justify-content: space-between;
+  }
+}
