@@ -10,11 +10,26 @@
             recieve a donation reciept, or to donate material goods such as food and medicine, reach out to us via our contact page.
         </p>
     </div>
-    <form class = "donationButton">
+    <form class = "donationFields">
         <div class = "donationInput">
             <label for = "amount">Donation Amount</label>
             <input id = "amount" type = "text">
         </div>
+        <br>
+        <div class = "paymentInfo">
+            <label for = "name">Name on card</label>
+            <input id = "name" type = "text">
+            <br>
+            <label for = "cardNum">Credit/Debit Card Number (No Dashes)</label>
+            <input id = "cardNum" type = "text" minlength = 16 maxlength = "16">
+            <br>
+            <label for = "cardExp">Card Expiration Date (MM/YYYY)</label>
+            <input id = "cardExp" type = "text" minlength = 7 maxlength = "7">
+            <br>
+            <label for = "CVV">CVV number</label>
+            <input id = "CVV" type = "text" minlength = 3 maxlength = "3">
+        </div>
+        <br>    
         <div class = "donationSubmit">
             <input type = "reset" value = "Submit Donation" onclick = "window.alert('Thank You For Your Donation!')"> 
         </div>
