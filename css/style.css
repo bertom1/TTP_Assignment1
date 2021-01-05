@@ -4,6 +4,35 @@
     box-sizing: border-box;
 }
 
+
+.header-img{
+    height: 70vh;
+    background-image: url(../home-page-img/GettyImages-1215392772.jpg);
+}
+
+.filler{
+    font-size: 4rem;
+    color: white;
+    text-align: center;
+    
+    padding-top: 15%;
+
+}
+
+.about-homepage{
+    background-color: aquamarine;
+    height: 30vh;
+}
+
+.About{
+    font-size: 2.5rem;
+    padding: 2rem;
+    
+    text-align: center;
+}
+
 .home-page-text{
     font-size: 1.5rem;
+    text-align: center;
+    padding: 2.5rem;
 }
