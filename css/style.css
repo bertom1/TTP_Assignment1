@@ -5,7 +5,7 @@
 }
 
 .under-container{
-    max-width: 1920px;
+    max-width: 100%;
 }
 
 .header-img{
@@ -19,28 +19,19 @@
     font-size: 4rem;
     color: white;
     text-align: center;
-    
     padding-top: 15%;
 
 }
 
-.about-homepage{
-    background-color: aquamarine;
-    height: 50vh;
-}
-
 .About{
     font-size: 2.5rem;
-    padding: 2rem;
-    
     text-align: center;
 }
 
 .home-page-text{
-    
-    margin-left: 6rem;
-    margin-right: 6rem;
+    margin-left: 40%;
+    margin-right: 40%;
     font-size: 1.5rem;
     text-align: justify;
-    padding: 2.5rem;
+    padding: 0.5rem;
 }
