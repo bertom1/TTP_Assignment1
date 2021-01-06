@@ -33,36 +33,68 @@
               </nav>
             </div>
 
-    <div class = "donationInfo">
-        <h2>Donate Today</h2>
-        <p>This fund depends on donations from people like you. Every donation we recieve goes directly to those affected by the COVID-19 pandemic, whether it be for food, medicine,
-            bills, or assistance with remote learning. Without this fund, and the donations we recieve, many New York City Residents would be left on their own during these difficult
-            and unprecedented times. We accept all donation sizes, so feel free to donate what you can. As a registered 501(c)(3) public charity, all donations are tax-deductible. To
-            recieve a donation reciept, or to donate material goods such as food and medicine, reach out to us via our contact page.
-        </p>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <div class="well well-sm">
+                <form class="form-horizontal" action="" method="post">
+                <fieldset>
+                    <legend class="text-center">Donate Today</legend>
+                    <section><p>This fund depends on donations from people like you. Every donation we recieve goes directly to those affected by the COVID-19 pandemic, whether it be for food, medicine,
+                    bills, or assistance with remote learning. Without this fund, and the donations we recieve, many New York City Residents would be left on their own during these difficult
+                    and unprecedented times.</p>
+
+                    <p>We accept all donation sizes, so feel free to donate what you can. As a registered 501(c)(3) public charity, all donations are tax-deductible. To
+                    recieve a donation reciept, or to donate material goods such as food and medicine, reach out to us via our contact page.</p></section>
+                    </br>
+
+                    <!-- Amount input-->
+                    <div class="form-group">
+                        <label class="col-md-3" for="amount">Donation Amount</label>
+                        <div class="col-md-9">
+                          <input id="amount" name="amount" type="text" placeholder="Amount" class="form-control">
+                        </div>
+                      </div>
+
+                    <!-- Card input-->
+                    <div class="form-group">
+                        <label class="col-md-3">Name on card</label>
+                        <div class="col-md-9">
+                            <input id="name" name="name" type="text" placeholder="Your name" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-md-3">Card Number</label>
+                        <div class="col-md-9">
+                            <input id="card" type = "text" minlength = "16" maxlength = "16" placeholder="CC" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-md-3">Expiration Date</label>
+                        <div class="col-md-9">
+                            <input id = "cardExp" type = "text" minlength = "7" maxlength = "7" placeholder="MM/YYYY" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-md-3">CVV Number</label>
+                        <div class="col-md-9">
+                           <input id = "CVV" type = "text" minlength = "3" maxlength = "3" placeholder="CVV" class="form-control">
+                        </div>
+                    </div>
+
+                    <!-- Form actions input-->
+                    <div class="form-group">
+                        <div class="col-md-12 text-right">
+                            <button type = "reset" class="btn btn-primary btn-lg" onclick = "window.alert('Thank You For Your Donation!')">Donate</button>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+          </div>
+        </div>
+      </div>
     </div>
-    <form class = "donationFields">
-        <div class = "donationInput">
-            <label for = "amount">Donation Amount</label>
-            <input id = "amount" type = "text">
-        </div>
-        <br>
-        <div class = "paymentInfo">
-            <label for = "name">Name on card</label>
-            <input id = "name" type = "text">
-            <br>
-            <label for = "cardNum">Credit/Debit Card Number (No Dashes)</label>
-            <input id = "cardNum" type = "text" minlength = "16" maxlength = "16">
-            <br>
-            <label for = "cardExp">Card Expiration Date (MM/YYYY)</label>
-            <input id = "cardExp" type = "text" minlength = "7" maxlength = "7">
-            <br>
-            <label for = "CVV">CVV number</label>
-            <input id = "CVV" type = "text" minlength = "3" maxlength = "3">
-        </div>
-        <br>    
-        <div class = "donationSubmit">
-            <input type = "reset" value = "Submit Donation" onclick = "window.alert('Thank You For Your Donation!')"> 
-        </div>
-    </form>
 </body>
